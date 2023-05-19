@@ -2,12 +2,12 @@
 import classes from './MealItemForm.module.css'
 
 const MealItemForm = (props) =>{
-    return <form className={classes.form}>
+    return (
 
-<input />
-
-<button>+ Add</button>
-</form>
+<form className={classes.form}>
+    <input />
+    <button>+ Add</button>
+</form>)
 
 }
 
