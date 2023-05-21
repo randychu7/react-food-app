@@ -14,8 +14,6 @@ function App() {
   const hideCartHandler = () => {
     setCartIsShown(false)
   }
-
-  
   return (
     <Fragment>
       {cartIsShown && <Cart onClose = {hideCartHandler}/>}
