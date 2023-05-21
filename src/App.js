@@ -15,6 +15,7 @@ function App() {
     setCartIsShown(false)
   }
 
+  
   return (
     <Fragment>
       {cartIsShown && <Cart onClose = {hideCartHandler}/>}
